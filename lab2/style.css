@@ -1,0 +1,34 @@
+.background {/*Header excape+links*/
+  background-image: url("images/BackgroundTop.jpg")
+}
+
+.site_name {/*Escape*/
+font-family: 'Lora', serif;
+font-size: 26px;
+color: #ffffff;
+}
+
+/*Nav menu*/
+.nav_menu {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+}
+.nav_menu_link{/*Home about, etc.*/
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 0.6px;
+}
+.nav_menu_link_selected{
+    color: rgb(0, 102, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
