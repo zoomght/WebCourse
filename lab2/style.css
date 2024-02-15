@@ -1,4 +1,4 @@
-.background {/*Header excape+links*/
+.main_background {/*Header excape+links*/
   background-image: url("images/BackgroundTop.jpg")
 }
 
@@ -11,7 +11,7 @@ color: #ffffff;
 /*Nav menu*/
 .nav_menu {
     font-family: 'Oxygen', sans-serif;
-    font-size: 12px;
+    font-size: 12px; 
 }
 .nav_menu_link{/*Home about, etc.*/
     text-decoration: none;
@@ -21,6 +21,134 @@ color: #ffffff;
 .nav_menu_link_selected{
     color: rgb(0, 102, 255);
 }
+/*Let's do it together*/
+.head_1{
+    font-family: Lora;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #ffffff;
+
+}
+/*We travel..*/
+.head_2{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    color: #ffffff;
+}
+/*View lastest posts*/
+.text_on_button{
+    font-family: 'Oxygen';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+
+}
+/*Nature photography etc.*/
+.nav_menu_2{
+    font-family: 'Lora', serif;
+    font-size: 14px;
+}
+.nav_menu_2_link{
+    text-decoration: none;
+    color: #768088;
+    letter-spacing: 0.6px;
+}
+.orange{
+    background: #F7941E;
+    border: none;
+    border-radius: 5px;
+}
+.head_of_several_articles{
+    font-family: 'Oxygen', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.head_of_article_1{
+    font-family: 'Lora', serif;
+    font-size: 27px;
+    color: #ffffff;
+}
+.describtion_of_article_a{
+    font-family: 'Oxygen', serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+.head_of_article_2{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    color: #000000;
+}
+.describtion_of_article_b{
+    font-family: 'Oxygen', serif;
+    font-size: 13 px;
+    color: #000000;
+}
+.name_a{
+    font-family: 'Oxygen', serif;
+    font-size: 13 px;
+    opacity: 70%;
+    color: #ffffff;
+}
+.name_b{
+    font-family: 'Oxygen', serif;
+    font-size: 13 px;
+    color: #999999;
+}
+.date_a{
+    font-family: 'Oxygen', serif;
+    font-size: 12 px;
+    opacity: 70%;
+    color: #ffffff;
+}
+.date_b{
+    font-family: 'Oxygen', serif;
+    font-size: 12 px;
+    color: #999999;
+}
+/*background images*/
+.a1_background {/*The Road Ahead*/
+    background-image: url("images/The\ Road\ Ahead.png");
+    max-width: 460px;
+    max-height: 280px;
+}
+.a2_background {/*From Top Down*/
+    background-image: url("images/From\ Top\ Down.png");
+    max-width: 460px;
+    max-height: 280px;
+}  
+.b11_background {/*Still Standing Tall*/
+    max-width: 296px;
+    max-height: 291px;
+}
+.b12_background {/*Sunny Side Up*/
+    max-width: 296px;
+    max-height: 291px;
+} 
+.b13_background {/*Water Falls*/
+    max-width: 296px;
+    max-height: 291px;
+}  
+.b21_background {/*Through the Mist*/
+    max-width: 296px;
+    max-height: 291px;
+}  
+.b22_background {/*Awaken Early*/
+    max-width: 296px;
+    max-height: 291px;
+}  
+.b23_background {/*Try it Always*/
+    max-width: 296px;
+    max-height: 291px;
+}
+.footer_background {/*Try it Always*/
+    background-image: url("images/Footer_Background.png")
+}     
+
+
 
 
 
