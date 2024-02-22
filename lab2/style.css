@@ -17,7 +17,7 @@
     font-size: 12px; 
     font-weight: 400;
 }
-.nav_menu_link{/*Home about, etc.*/
+.nav_menu-link{/*Home about, etc.*/
     text-decoration: none;
     color: #ffffff;
     letter-spacing: 0.6px;
@@ -180,12 +180,78 @@
     max-height: 89px;
 }     
 
+/*New CSS*/
+.header{
+
+}
+  .header_site_name{
+
+  }
+    .site_name{
+
+    }
+  .header_nav_menu{
+
+  }
+    .nav_menu{
+
+    }   
+
+  .header_body{
+
+  } 
+    .body_of_header
+
+    .header-body-title{
+
+    }  
+    .header-body-tagline{
+
+    }  
+    .header-body-button{
+
+    }  
+  .header-page_nav_menu{
+
+  }
+    .header-page_nav_menu-link{
+
+    }
+   
+  
 
 
+.body{
 
+}
+    .body-featured_posts{
 
+    }
+        .body-featured_posts-article{
 
+        }
+            .body-featured_posts-article-title{
 
+            }
+            .body-featured_posts-article-tagline{
+                
+            }
+            .body-featured_posts-article-foot{
+                
+            }
+                .body-featured_posts-article-avatar{
+                
+                }
+                .body-featured_posts-article-name{
+                
+                }
+                .body-featured_posts-article-date{
+                
+                }
+
+    .body-most_recent{
+
+    }
 
 
 
