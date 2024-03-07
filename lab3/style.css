@@ -1,3 +1,7 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
 .main_background {/*Header excape+links*/
   background-image: url("images/BackgroundTop.jpg");
   max-width: 1440px;
@@ -85,12 +89,6 @@
     text-align: center;
 
 }
-.head_of_article_1{
-    font-family: 'Lora', serif;
-    font-size: 27px;
-    font-weight: 400;
-    color: #ffffff;
-}
 .describtion_of_article_a{
     font-family: 'Oxygen', serif;
     font-size: 14px;
@@ -151,17 +149,6 @@
     letter-spacing: 0em;
     text-align: left;
 }
-/*background images*/
-.a1_background {/*The Road Ahead*/
-    background-image: url("images/The\ road\ ahead.png");
-    max-width: 460px;
-    min-height: 280px;
-}
-.a2_background {/*From Top Down*/
-    background-image: url("images/From\ Top\ Down.png");
-    max-width: 460px;
-    min-height: 280px;
-}  
 
 .b_background {/*Still Standing Tall*/
     max-width: 296px;
@@ -186,13 +173,13 @@
 /*New CSS*/
 .header{
   max-width: 1440px;
-  height: 565px;
+  height: 500px;
   background-image: url("images/BackgroundTop.jpg");
   background-position: center;
   background-size: cover;
 }
   .header__hat{
-    height: 74px; {padding - внутри margin - снаружи}
+    max-height: 74px;    /*{padding - внутри margin - снаружи}*/
   }
   .hat{
 
@@ -201,11 +188,13 @@
     font-family: 'Lora', serif;
     font-size: 26px;
     font-weight: 400;
+
     color: #ffffff;
   }
   .hat__nav_menu{
       
   }
+
   .nav_menu{  
   }
     .nav_menu__link{
@@ -217,10 +206,15 @@
         color: #ffffff;    
     }
 .header__content_in_head{
-    
+  
 }
   .content_in_head{
-    height: 388px    
+    max-height: 166px;
+    margin-left: 250px; 
+    margin-right: 250px;
+    margin-top: 184px;
+    margin-bottom: 157px;
+    align-content: center;    
   }
     .content_in_head__title{
       font-family: Lora;
@@ -236,16 +230,17 @@
         font-size: 17px;
         color: #ffffff;
         text-align: center;
+        line-height: 20px;
         opacity: 63%;   
     }
     .content_in_head__button{
-      height: 44px;        
+      max-height: 44px;        
     }
       .button{
         background: #F7941E;
         border: none;
         border-radius: 5px;
-        padding: 10px;    
+        padding: 12px 31px;    
       }
         .button__text{
           font-family: 'Oxygen';
@@ -256,21 +251,226 @@
           color: #ffffff;
           text-align: center;   
         }
-    .content_in_head__site_nav{
-      height: 65px;    
+
+
+.site_nav{
+
+}
+  .site_nav__link{
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+    color: #768088;
+    letter-spacing: 0.6px;
+  }
+
+/*featured posts*/
+.featured_posts{
+  
+}
+  .featured_posts__title{
+    font-family: 'Oxygen', serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 27px;
+    text-align: center;
+    border-bottom: 1px solid #DEDEDE;
+    max-width: 188px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+  }
+  
+.featured_posts__featured_articles{
+
+}
+.featured_articles{
+
+}
+  .featured_articles__left_article_content{
+  
+  } 
+  .left_article_content{
+    background-image: url("images/The\ road\ ahead.png");
+    max-width: 460px;
+    max-height: 280px;
+  } 
+  .featured_articles__right_article_content{
+  
+  }
+  .right_article_content{
+    background-image: url("images/From\ Top\ Down.png");
+    max-width: 460px;
+    max-height: 280px;
+  }
+    .article_content__title{
+      font-family: 'Lora', serif;
+      font-size: 27px;
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 30px;
+    } 
+    .article_content__tagline{
+      font-family: 'Oxygen', serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+      opacity: 70%;;
+      line-height: 25px;
     }
-      .site_nav{
-          
+    .article_content__featured_author{
+
+    }
+    .featured_author{
+      max-height: 35px;
+      margin-bottom: 15px;  
+    }
+    .featured_author__photo{
+      max-height: 26px;
+    }
+    .featured_author__name{
+      font-family: 'Oxygen', serif;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 35px;
+      opacity: 70%;
+      color: #ffffff;
+    }
+    .featured_author__date{
+      font-family: 'Oxygen', serif;  
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 35px;
+      opacity: 70%;
+      color: #ffffff;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+
+/*Most recent*/
+.most_recent{
+  margin-top: 60px;
+}
+.most_recent__title{
+  font-family: 'Oxygen', serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 27px;
+  text-align: center;
+  border-bottom: 1px solid #DEDEDE;
+  max-width: 188px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.most_recent__recent_articles{
+  margin-bottom: 90px;  
+}
+.recent_articles{
+  max-width: 960px;
+  max-height: 632px;
+}
+  .recent_articles__top_left_article{
+
+  }
+  .top_left_article{
+    max-width: 296px;
+    max-height: 291px; 
+    background-color: #ffffff;  
+  }
+  .recent_articles__top_mid_article{
+
+  }
+  .top_mid_article{
+    max-width: 296px;
+    max-height: 291px; 
+    background-color: #ffffff; 
+  }
+  .recent_articles__top_right_article{
+
+  }
+  .top_right_article{
+    max-width: 296px;
+    max-height: 291px;
+    background-color: #ffffff;  
+  }
+  .recent_articles__bot_left_article{
+
+  }
+  .bot_left_article{
+    max-width: 296px;
+    max-height: 291px;
+    background-color: #ffffff;  
+  }
+  .recent_articles__bot_mid_article{
+
+  }
+  .bot_mid_article{
+    max-width: 296px;
+    max-height: 291px;
+    background-color: #ffffff; 
+  }
+  .recent_articles__bot_right_article{
+
+  }
+  .bot_right_article{
+    max-width: 296px;
+    max-height: 291px; 
+    background-color: #ffffff; 
+  }
+    .article__image{
+      max-width: 296px;
+      max-height: 150px;
+      background-color: #ffffff; 
+    }  
+    .article__title{
+      font-family: 'Lora',serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      color: #101315;
+      margin-top: 14px;
+      margin-bottom: 6px;
+    }
+    .article__tagline{
+      font-family: 'Oxygen';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 19px;
+      color: #7A7A7A;
+      margin-bottom: 33px;
+    }
+    .article__recent_author{
+      max-height: 48px;  
+    }
+    .recent_author{
+      background-color: #FCFCFC; 
+    }
+      .recent_author__photo{
+        max-height: 26px;
+        max-width: 26px;
+        padding: 4.5px;
       }
-        .site_nav__link{
-          font-family: 'Lora', serif;
-          font-size: 14px;
-          font-weight: 400;
-          text-decoration: none;
-          color: #768088;
-          letter-spacing: 0.6px;
-        }
+      .recent_author__name{
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 35px;
+        color: #999999;
+      }
+      .recent_author__date{
+        font-family: 'Oxygen';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 35px;
+        color: #999999;
+      }
 
-
-
-
+{общий css с футером}
+{не ограничивать высоту articles}
+{убрать top left top mid и тд}
