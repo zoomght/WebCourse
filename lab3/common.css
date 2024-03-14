@@ -1,0 +1,43 @@
+/*hat*/
+.hat{
+  max-width: 1440px;
+}
+  .hat__site_name{
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+  .hat__nav_menu{
+    color: #ffffff;      
+  }
+  .nav_menu{  
+    
+  }
+    .nav_menu__link{
+      font-family: 'Oxygen', sans-serif;
+      font-size: 12px; 
+      font-weight: 400;
+      text-decoration: none;
+      letter-spacing: 0.6px;
+      color: #ffffff;
+      padding: 21px;
+    }
+
+
+/*footer*/
+.footer{
+    max-width: 1440px;
+    background-image: url("images/footerBG.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .footer__site_name{
+    font-family: 'Lora', serif;
+    font-size: 26px;
+    font-weight: 400;
+  
+    color: #ffffff;
+  }
+
+  

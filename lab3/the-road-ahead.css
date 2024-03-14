@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+.main_body{
+  background: #FFFFFF;
+}
+.hat__site_name{
+  color: #000000;
+}
+.hat__nav_menu .nav_menu__link{
+  color: #000000;    
+}
+
+.main_body__head{
+
+}
+.head{
+
+}
+  .head__title{
+    font-family: Lora;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #2e2e2e;
+  }
+  .head__tagline{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 17px;
+    color: #2e2e2e;
+    text-align: center;
+    line-height: 20px;
+    opacity: 63%; 
+  }
+  .head__photo{
+  
+  }
+.main_body__text{
+  margin-top: 135px;
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-bottom: 135px; 
+}
+.text{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #101315;
+}
+  
+  .text__para{
+    margin-top: 5px;
+  }

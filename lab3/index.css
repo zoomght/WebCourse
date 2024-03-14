@@ -2,167 +2,8 @@
   padding: 0px;
   margin: 0px;
 }
-.main_background {/*Header excape+links*/
-  background-image: url("images/BackgroundTop.jpg");
-  max-width: 1440px;
-  max-height: 500px;
-}
-
-.site_name {/*Escape*/
-  font-family: 'Lora', serif;
-  font-size: 26px;
-  font-weight: 400;
-  color: #ffffff;
-}
-
-/*Nav menu*/
-.nav_menu {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 12px; 
-    font-weight: 400;
-}
-.nav_menu-link{/*Home about, etc.*/
-    text-decoration: none;
-    color: #ffffff;
-    letter-spacing: 0.6px;
-}
-.nav_menu_link_selected{
-    color: rgb(0, 102, 255);
-}
-/*Let's do it together*/
-.head_1{
-    font-family: Lora;
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 51px;
-    letter-spacing: 2px;
-    text-align: center;
-    color: #ffffff;
-
-}
-/*We travel..*/
-.head_2{
-    font-family: 'Oxygen', sans-serif;
-    font-size: 17px;
-    color: #ffffff;
-    text-align: center;
-    opacity: 63%;
-}
-/*View lastest posts*/
-.text_on_button{
-    font-family: 'Oxygen';
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    color: #ffffff;
-    text-align: center;
-}
-/*Nature photography etc.*/
-.nav_menu_2{
-    font-family: 'Lora', serif;
-    font-size: 14px;
-    font-weight: 400;
-}
-.nav_menu_2_link{
-    font-family: 'Lora', serif;
-    font-size: 14px;
-    font-weight: 400;
-    text-decoration: none;
-    color: #768088;
-    letter-spacing: 0.6px;
-}
-.orange{
-    background: #F7941E;
-    border: none;
-    border-radius: 5px;
-}
 .main_body{
     background: #F7F7F7;
-}
-.head_of_several_articles{
-    font-family: 'Oxygen', serif;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    line-height: 27px;
-    text-align: center;
-
-}
-.describtion_of_article_a{
-    font-family: 'Oxygen', serif;
-    font-size: 14px;
-    font-weight: 400;
-    color: #ffffff;
-    max-width: 250px;
-}
-.head_of_article_2{
-    font-family: 'Lora', serif;
-    font-size: 16px;
-    font-weight: 400;
-    color: #000000;
-}
-.describtion_of_article_b{
-    font-family: 'Oxygen', serif;
-    font-size: 13 px;
-    font-weight: 400;
-    color: #000000;
-    max-width: 250px;
-}
-.name_a{
-    font-family: 'Oxygen', serif;
-    font-size: 10 px;
-    font-weight: 400;
-    opacity: 70%;
-    color: #ffffff;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-.name_b{
-    font-family: 'Oxygen', serif;
-    font-size: 10 px;
-    font-weight: 400;
-    color: #999999;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.date_a{
-    font-family: 'Oxygen', serif;
-    font-size: 12 px;
-    font-weight: 400;
-    opacity: 70%;
-    color: #ffffff;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-
-}
-.date_b{
-    font-family: 'Oxygen', serif;
-    font-size: 12 px;
-    font-weight: 400;
-    color: #999999;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-.b_background {/*Still Standing Tall*/
-    max-width: 296px;
-    min-height: 291px;
-    background: #ffffff;
-}
-.img_in_article{
-    max-width: 296px;
-    max-height: 150px;
-}
-.article_foot {
-    background: #fcfcfc;
-    max-width: 296px;
-    max-height: 48px;
 }
 .footer_background {/*Try it Always*/
     background: #232f38;
@@ -264,6 +105,8 @@
     text-decoration: none;
     color: #768088;
     letter-spacing: 0.6px;
+    padding: 13px 43px;
+    display: inline-block;
   }
 
 /*featured posts*/
@@ -289,22 +132,13 @@
 .featured_articles{
 
 }
-  .featured_articles__left_article_content{
+  .featured_articles_article_content{
   
   } 
-  .left_article_content{
+  .article_content{
     background-image: url("images/The\ road\ ahead.png");
     max-width: 460px;
-    max-height: 280px;
   } 
-  .featured_articles__right_article_content{
-  
-  }
-  .right_article_content{
-    background-image: url("images/From\ Top\ Down.png");
-    max-width: 460px;
-    max-height: 280px;
-  }
     .article_content__title{
       font-family: 'Lora', serif;
       font-size: 27px;
@@ -324,11 +158,9 @@
 
     }
     .featured_author{
-      max-height: 35px;
       margin-bottom: 15px;  
     }
     .featured_author__photo{
-      max-height: 26px;
     }
     .featured_author__name{
       font-family: 'Oxygen', serif;
@@ -370,56 +202,16 @@
 }
 .recent_articles{
   max-width: 960px;
-  max-height: 632px;
 }
-  .recent_articles__top_left_article{
+  .recent_articles__article{
 
   }
-  .top_left_article{
+  .article{
     max-width: 296px;
-    max-height: 291px; 
     background-color: #ffffff;  
   }
-  .recent_articles__top_mid_article{
 
-  }
-  .top_mid_article{
-    max-width: 296px;
-    max-height: 291px; 
-    background-color: #ffffff; 
-  }
-  .recent_articles__top_right_article{
 
-  }
-  .top_right_article{
-    max-width: 296px;
-    max-height: 291px;
-    background-color: #ffffff;  
-  }
-  .recent_articles__bot_left_article{
-
-  }
-  .bot_left_article{
-    max-width: 296px;
-    max-height: 291px;
-    background-color: #ffffff;  
-  }
-  .recent_articles__bot_mid_article{
-
-  }
-  .bot_mid_article{
-    max-width: 296px;
-    max-height: 291px;
-    background-color: #ffffff; 
-  }
-  .recent_articles__bot_right_article{
-
-  }
-  .bot_right_article{
-    max-width: 296px;
-    max-height: 291px; 
-    background-color: #ffffff; 
-  }
     .article__image{
       max-width: 296px;
       max-height: 150px;
@@ -444,7 +236,7 @@
       margin-bottom: 33px;
     }
     .article__recent_author{
-      max-height: 48px;  
+
     }
     .recent_author{
       background-color: #FCFCFC; 
@@ -471,6 +263,4 @@
         color: #999999;
       }
 
-{общий css с футером}
-{не ограничивать высоту articles}
-{убрать top left top mid и тд}
+
