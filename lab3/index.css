@@ -134,11 +134,21 @@
 }
   .featured_articles_article_content{
   
-  } 
+  }
+   
   .article_content{
     background-image: url("images/The\ road\ ahead.png");
     max-width: 460px;
   } 
+  .article_content-adventure{
+    background-image: url("images/From\ Top\ Down.png");
+  } 
+  .article_content-roadahead{
+    background-image: url("images/The\ road\ ahead.png");
+  } 
+  .hat__nav_menu .nav_menu__link{
+    color: #000000;    
+  }
     .article_content__title{
       font-family: 'Lora', serif;
       font-size: 27px;
